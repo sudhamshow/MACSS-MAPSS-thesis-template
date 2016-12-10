@@ -1,20 +1,12 @@
-# University of Arizona thesis template in Rmarkdown
+# University of Chicago Dissertation Template in Rmarkdown
 
-This is a piecemeal rendition of the University of Arizona thesis class 
-(`uathesis`) reworked to be compatible with `Rmarkdown`. The majority of the 
-heavy lifting was already done by colleagues in the Department of Planetary 
-Sciences at the U of A (see the `uathesis.cls` file for more information). In 
-essence all I have done is include the proper adjustments so that it plays 
-nicely with `knitr`. To the best of my knowledge (and my abilities), the LaTeX 
-class ```uathesis``` is fully compliant with the Graduate College formating 
-specifications (see [here](https://grad.arizona.edu/gcforms/sites/gcforms/files/page/dissertationformattingguide-mar2015.pdf), updated March 2015). As of Summer, 2015, knitr 
-and R are fully functional. That said, a few minor issues still remain (see 
-below).
+This is a rendition of a template for a University of Chicago dissertation and disseration proposal. Some of the templates may be specific to the Department of Sociology, but should be modifiable to your needs.
+
 
 ## Dependencies
 
-In order to render the ```master.Rmd``` file 'out of the box' you need to have 
-the following r packages installed:
+In order to render the ```dissertation.Rmd``` or ```proposal.rmd``` file 'out of the box' you need to have 
+the following R packages installed:
 
 - dplyr
 - ggplot2
@@ -26,3 +18,10 @@ the following r packages installed:
 - [ ] Knitr captions
 	- [ ] include captions from knitr call
 	- [ ] include figure in LOF from knitr call
+
+---
+
+## Acknowledgements
+
+This template greatly borrows from the 
+heavy lifting was done by colleagues at the University of Arizona. The fork for the University of Chicago template originated from the repository by [jvcasill](https://github.com/jvcasill/ua_thesis_rmd) who worked to make the prior work at Arizona function nicely with `knitr`.
