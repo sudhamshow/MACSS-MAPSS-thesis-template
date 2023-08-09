@@ -14,7 +14,7 @@ the following R packages installed:
 
 ## Quick Start Guide
 
-Edit the title page in [doc_prefix.tex](/includes/tex/doc_prefix.tex). Add Acknowledgements, Abstract and new chapters in the files in the [section](\section) folder. Add images in the [figures](/includes/figures) folder. **Pro Tip** - Professional LLMs come handy in converting your citations to bib entry.
+Edit the title page in [doc_prefix.tex](/includes/tex/doc_prefix.tex). Add Acknowledgements, Abstract and new chapters in the files in the [sections](/sections) folder. Add images in the [figures](/includes/figures) folder. **Pro Tip** - Professional LLMs come handy in converting your citations to bib entry.
 
 ## Issues
 
