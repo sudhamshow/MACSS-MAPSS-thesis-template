@@ -1,7 +1,9 @@
 ---
 documentclass: ucdissertation
 classoption: dissertation
-linkcolor: black
+linkcolor: blue
+link-citations: true
+citecolor: blue
 output:
   pdf_document:
     highlight: zenburn
@@ -10,9 +12,12 @@ output:
     includes:
       in_header: includes/tex/header.tex
       before_body: includes/tex/doc_prefix.tex
-bibliography: includes/bib/bibliography.bib
+bibliography:
+  - includes/bib/bibliography.bib
+  # - includes/bib/another_bibliography.bib/csl
 csl: includes/bib/american-sociological-association.csl
 ---
+
 
 
 <!-- Include the Abstract -->

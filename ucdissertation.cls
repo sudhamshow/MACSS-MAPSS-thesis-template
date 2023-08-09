@@ -518,6 +518,14 @@
 \newcommand{\MonthYear}{#1}
 }
 
+\newcommand{\advisor}[1]{%
+\newcommand{\Advisor}{#1}
+}
+
+\newcommand{\preceptor}[1]{%
+\newcommand{\Preceptor}{#1}
+}
+
 
 %%---------------------------- Title Page -----------------------------
 %%
@@ -540,34 +548,37 @@
 
 \begin{center}		%	this would be 1in, but that pushes it down too far?
 
-
 \MakeUppercase{\University}	              % University
 
-\vspace{1in}
-
-\MakeUppercase{\CompleteTitle}	          % Thesis Title
-
-\vspace{1in}
-
-\MakeUppercase{A Dissertation Submitted To} \par
-\MakeUppercase{The Faculty of the Division of the Social Sciences} \par
-\MakeUppercase{In Candidacy for the Degree of} \par
-\MakeUppercase{\DegreeName} \par
 
 \vspace{0.5in}
 
-\MakeUppercase{\Dept}					            % Department
+{\large\MakeUppercase{\CompleteTitle}}	          % Thesis Title
 
-\vspace{1in}
-
+\vspace{0.5in}
 \MakeUppercase{By} \par
 \MakeUppercase{\FullName} \par			      % Author
 
-\vspace{1in}
+\vspace{0.5in}
 
-\MakeUppercase{Chicago, Illinois} \par    % City, State
+% \MakeUppercase{Chicago, Illinois} \par    % City, State
 \MakeUppercase{\MonthYear} \par            % Month Year
 
+\vspace{0.5in}
+
+\MakeUppercase{A paper submitted in partial fulfillment of} \par
+\MakeUppercase{the requirements for the Master of Arts degree in the} \par
+\MakeUppercase{Master of Arts in Computational Social Science} \par
+
+
+%\MakeUppercase{\DegreeName} \par
+
+
+
+\vspace{1in}
+
+\MakeUppercase{Advisor: \Advisor}  \par   % Advisor
+\MakeUppercase{Preceptor: \Preceptor} % Preceptor
 
 \ifthenelse{ \boolean{Copyright} }	% This puts in the Copyright statement
 {Copyright \copyright\ \FullName\ #2}{}	
